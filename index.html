@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- header section starts  -->
+<header>
+    <div id="menu" class="fas fa-bars"></div>
+    <a href="#" class="logo"><i class="fas fa-bone"></i>Happy Paws !</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#category">category</a>
+        <a href="#featured">featured</a>
+        <a href="#products">products</a>
+        <a href="#offer">offer</a>
+        <a href="#customer-care">customer-care</a>
+        <a href="#delivery-boy">delivery-boy</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+<!-- Cart Icon (assumes Font Awesome or similar is used) -->
+<div class="cart-container">
+    <i class="fas fa-shopping-cart" id="cart-icon"></i>
+    <span id="cart-count">0</span>
+    <div class="cart-dropdown" id="cart-dropdown">
+      <h4>Your Cart</h4>
+      <ul id="cart-items"></ul>
+      <p id="cart-total">Total: $0.00</p>
+    </div>
+  </div>
+        </a>
+    </div>
+    <form action="" id="search-box">
+        <input type="search" id="search" placeholder="search here">
+        <label for="search" class="fas fa-search"></label>
+    </form>
+</header>
+<!-- header section ends -->
+<!-- home section starts  -->
+<section class="home" id="home">
+    <div class="content">
+        <span>upto 50% off</span>
+        <h3>we care about <br> your pet!</h3>
+        <a href="#" class="btn">get started</a>
+    </div>
+</section>
+<!-- home section ends -->
+<!-- category section starts  -->
+<section class="category" id="category">
+    <h1 class="heading"> <i class="fas fa-paw"></i> shop by category <i class="fas fa-paw"></i> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/c1.webp" alt="">
+            <h3>food for dogs</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <img src="images/c2.webp" alt="">
+            <h3>food for cats</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <img src="images/c3.webp" alt="">
+            <h3>food for rabbits</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <img src="images/c4.webp" alt="">
+            <h3>food for birds</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+</section>
+<!-- category section ends -->
+<section class="featured" id="featured">
+    <h1 class="heading"> <i class="fas fa-paw"></i> our featured products <i class="fas fa-paw"></i> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="price">$14.05</div>
+            <img src="images/p1.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>tasty pets food</h3>
+                <p>Tasty Foods For Dog , Cats , Birds Etc Are Available With Reasonable Prices And With Amazing Offers .</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="price">$15.40</div>
+            <img src="images/p2.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>tasty pets food</h3>
+                <p>Various Food Packets Are Also Available With Awesome Combos ! We Also Provide Customize Packets Accroding To Your Pet Needs !</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- deal section starts  -->
+<section class="deal">
+    <span>upto 70% off</span>
+    <h3>tasty and healthy pets food</h3>
+    <a href="#" class="btn">see the deal now</a>
+</section>
+<!-- deal section ends -->
+<section class="products" id="products">
+    <h1 class="heading"> <i class="fas fa-paw"></i> our latest products <i class="fas fa-paw"></i> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/p1.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p2.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p3.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p4.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p5.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p6.webp" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>healthy pets food</h3>
+                <div class="price"> $10.03 <span>12.50</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- offer section starts  -->
+<section class="offer" id="offer">
+    <h1 class="heading"> <i class="fas fa-paw"></i> our latest offer <i class="fas fa-paw"></i> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/offer-img1.webp" alt="">
+            <div class="content">
+                <span>best offer</span>
+                <h3>upto 40% off</h3>
+                <a href="#" class="btn">see offer</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/offer-img2.webp" alt="">
+            <div class="content">
+                <span>only for today</span>
+                <h3>upto 80% off</h3>
+                <a href="#" class="btn">see offer</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- offer section ends -->
+<!-- customer-care section starts -->
+<section class="customer-care" id="customer-care">
+    <h1 class="heading"> <i class="fas fa-paw"></i> customer care <i class="fas fa-paw"></i> </h1>
+    <!-- User Info Form Section -->
+    <div class="user-info-form" id="user-info-form">
+        <h2>Enter Your Info to Start Chat</h2>
+        <form id="info-form">
+            <div class="form-row">
+                <div class="form-column">
+                    <input type="text" id="user-name" placeholder="Your Name" required>
+                </div>
+                <div class="form-column">
+                    <input type="email" id="user-email" placeholder="Email Address" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-column">
+                    <input type="tel" id="user-phone" placeholder="Phone Number" required>
+                </div>
+                <div class="form-column">
+                    <input type="text" id="user-address" placeholder="Address" required>
+                </div>
+            </div>
+            <button type="submit" class="btn">Start Chat</button>
+        </form>
+    </div>
+    <!-- Chat Container Section (Hidden Initially) -->
+    <div class="chat-container" id="chat-container" style="display: none;">
+        <div id="chat-box" class="chat-box">
+            <!-- Chat messages will appear here -->
+        </div>
+        <form id="chat-form" class="chat-form">
+            <input type="text" id="chat-input" placeholder="Type your message..." required />
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+    <script>
+        const infoForm = document.getElementById("info-form");
+        const chatContainer = document.getElementById("chat-container");
+        const userInfoForm = document.getElementById("user-info-form");
+        const chatForm = document.getElementById("chat-form");
+        const chatInput = document.getElementById("chat-input");
+        const chatBox = document.getElementById("chat-box");
+        let userInfo = {};
+        // User info submission logic
+        infoForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            userInfo = {
+                name: document.getElementById("user-name").value,
+                email: document.getElementById("user-email").value,
+                phone: document.getElementById("user-phone").value,
+                address: document.getElementById("user-address").value
+            };
+            userInfoForm.style.display = "none";
+            chatContainer.style.display = "block";
+            addMessage(`Hello ${userInfo.name}! How can we assist you today?`, "system");
+        });
+        // Chat form logic
+        chatForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            const userMessage = chatInput.value.trim();
+            if (!userMessage) return;
+            addMessage(userMessage, "user");
+            // Default replies based on user input
+            let reply = "We'll respond to you soon.";
+            const msg = userMessage.toLowerCase();
+            if (msg.includes("order")) reply = "Thank you for your order inquiry! We'll process it soon.";
+            else if (msg.includes("complaint") || msg.includes("issue")) reply = "We apologize for the issue. Our team will reach out shortly.";
+            else if (msg.includes("question") || msg.includes("help")) reply = "Thanks for your question. We'll get back to you ASAP.";
+            setTimeout(() => addMessage(reply, "system"), 500);
+            chatInput.value = "";
+        });
+        // Function to add messages to the chat box
+        function addMessage(text, sender) {
+            const msgDiv = document.createElement("div");
+            msgDiv.className = `message ${sender}`;
+            msgDiv.textContent = text;
+            chatBox.appendChild(msgDiv);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+    </script>
+</section>
+<!-- customer-care section ends -->
+<!-- delivery section starts -->
+<section class="delivery-boy" id="delivery-boy">
+    <h1 class="heading"> <i class="fas fa-paw"></i> our delivery partners <i class="fas fa-paw"></i> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/delivery-boy1.webp" alt="Rahul Sharma">
+            <div class="content">
+                <h3>Rahul Sharma</h3>
+                <p><strong>ID:</strong> DB1024</p>
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+                <p><strong>Area:</strong> Pune - Hinjewadi, Baner</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/delivery-boy2.webp" alt="Amit Verma">
+            <div class="content">
+                <h3>Amit Verma</h3>
+                <p><strong>ID:</strong> DB1056</p>
+                <p><strong>Phone:</strong> +91 98765 98765</p>
+                <p><strong>Area:</strong> Pune - Kothrud, Shivaji Nagar</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/delivery-boy3.webp" alt="Sneha Kulkarni">
+            <div class="content">
+                <h3>Sneha Kulkarni</h3>
+                <p><strong>ID:</strong> DB1077</p>
+                <p><strong>Phone:</strong> +91 91234 56789</p>
+                <p><strong>Area:</strong> Nagpur - Dharampeth, Sitabuldi</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- delivery section ends -->
+<!-- footer section  -->
+<section class="footer">
+    <div class="share">
+        <a href="#" class="btn">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="#" class="btn">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="btn">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="btn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" class="btn">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+    <h1 class="credit"> created by <span> Akanksha Ramgirwar </span> | &copy all rights reserved! </h1>
+</section>
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- custom js file link  -->
+<script src="script.js"></script>
+</body>
+</html>
